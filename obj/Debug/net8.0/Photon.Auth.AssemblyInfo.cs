@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Photon.Auth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29872a22b37f33a07cdee3897e7e32ce7b8560fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39a68eb1b46f51dfbba1d62571481b37bc9d2bd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Photon.Auth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Photon.Auth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
