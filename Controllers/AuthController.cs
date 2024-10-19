@@ -58,6 +58,7 @@ public class AuthController(
     [HttpGet("login/discord")]
     public async Task<ActionResult<LoginResponse>> LoginDiscord([FromQuery] LoginRequest request)
     {
+        /*
         httpClient.BaseAddress = new Uri("https://discord.com/");
         var data = new Dictionary<string, string>
         {
@@ -81,8 +82,9 @@ public class AuthController(
         var userContent = await userResponse.Content.ReadFromJsonAsync<DiscordUserResponse>();
         if (userContent?.Username is null)
             return BadRequest("Invalid token");
-        var user = new User(userContent.Username, userContent.Email,
-            "https://cdn.discordapp.com/avatars/" + userContent.Id + "/" + userContent.Avatar + ".png");
+        */
+        var user = new User("Admin", "admin@123",
+            "https://github.com/identicons/ghost.png");
         return Ok(new LoginResponse(user, CreateToken(user)));
     }
 
